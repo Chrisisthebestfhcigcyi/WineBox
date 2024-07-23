@@ -12,7 +12,7 @@ echo subscribe to littlebodybigfan188 for updates
 clear
 pkg install termux-am -y
 
-clear
+sleep 2
 
 
 INSTALL_WOW64=0

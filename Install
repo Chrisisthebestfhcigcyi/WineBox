@@ -6,7 +6,7 @@ sleep 2
 echo "installing wget
 pkg install wget -y
 sleep 2
-echo "wget succefully installed!!!
+echo wget succefully installed!!!
 sleep 2
-echo "subscribe to littlebodybigfan188 for updates
+echo subscribe to littlebodybigfan188 for updates
 

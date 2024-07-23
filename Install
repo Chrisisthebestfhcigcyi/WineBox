@@ -52,5 +52,5 @@ echo -n "Selected number: "
 read i
 case "$i" in
 1)
-
+https://github.com/Chrisisthebestfhcigcyi/WineBox/releases/tag/Glibc
 

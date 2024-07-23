@@ -35,13 +35,17 @@ pkg install termux-x11-nightly -y &>/dev/null
 if [ -e $PREFIX/glibc ]; then
 sleep 2
     echo -n "Removing previous glibc. Continue? (Y/n) "
+sleep 2
     read i
+sleep 2
     if [ "$i" = "Y" ] || [ "$i" = "y" ]; then
         rm -rf $PREFIX/glibc
+sleeo 2
     else
         return 1
     fi
 fi
+sleep 2
 
 INSTALL_WOW64=0
 
@@ -53,10 +57,10 @@ echo -n "Selected number: "
 read i
 case "$i" in
 1)
-    https://github.com/Chrisisthebestfhcigcyi/WineBox/releases/tag/Glibc
+    https://github.com/Chrisisthebestfhcigcyi/WineBox/releases/download/Glibc/glibc-wine-prefix.tar.xz
 ;;
 2)
-    https://github.com/Chrisisthebestfhcigcyi/WineBox/releases/tag/Glibc
+    https://github.com/Chrisisthebestfhcigcyi/WineBox/releases/download/Glibc/glibc-wine-prefix.tar.xz
 ;;
 *)
     return 1

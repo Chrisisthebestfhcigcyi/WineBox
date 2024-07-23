@@ -31,14 +31,5 @@ pkg install xorg-xrandr -y &>/dev/null
 pkg install ncurses-utils -y &>/dev/null
 pkg install hashdeep -y &>/dev/null
 pkg install termux-x11-nightly -y &>/dev/null
-sleep 2
-echo "Select an option"
-echo "1) Install Winebox with box86"
-echo ""
-echo -n "Selected number: "
-read i
-case "$i" in
-1)
-sleep 2
-https://github.com/Chrisisthebestfhcigcyi/WineBox/releases/tag/Glibc
+
 

@@ -1,4 +1,10 @@
 clear
+termux-change-repo
 termux-setup-storage
 pkg install git
-pkg install wget
+rm ~/x 
+echo "installing wget
+pkg install wget -y
+rm ~/x 
+echo "subscribe to littlebodybigfan188 for updates
+

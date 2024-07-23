@@ -32,17 +32,3 @@ pkg install ncurses-utils -y &>/dev/null
 pkg install hashdeep -y &>/dev/null
 pkg install termux-x11-nightly -y &>/dev/null
 
-
-
-https://github.com/Chrisisthebestfhcigcyi/WineBox/blob/main/Install
-
-echo "Select an option"
-echo "1) Install previous mobox with box86"
-echo "2) Install new mobox wow64 version"
-echo ""
-echo -n "Selected number: "
-read i
-case "$i" in
-1)
-https://github.com/Chrisisthebestfhcigcyi/WineBox/releases/tag/Glibc
-

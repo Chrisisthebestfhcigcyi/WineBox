@@ -12,6 +12,7 @@ echo subscribe to littlebodybigfan188 for updates
 clear
 pkg install termux-am -y
 clear
+sleep 2
 if [ -e $PREFIX/glibc ]; then
     echo -n "Removing previous glibc. Continue? (Y/n) "
     read i

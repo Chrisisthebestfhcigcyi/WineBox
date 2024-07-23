@@ -11,17 +11,27 @@ sleep 2
 echo subscribe to littlebodybigfan188 for updates
 clear
 pkg install termux-am -y
-
-sleep 2
-
+clear
+if [ -e $PREFIX/glibc ]; then
+    echo -n "Removing previous glibc. Continue? (Y/n) "
+    read i
+    if [ "$i" = "Y" ] || [ "$i" = "y" ]; then
+        rm -rf $PREFIX/glibc
+    else
+        return 1
+    fi
+fi
 
 INSTALL_WOW64=0
 
 echo "Select an option"
-echo "1) Install boxvidra with box86 build (only box86)"
+echo "1) Install WineBox with box86 build (only)"
 echo ""
 echo -n "Selected number: "
 read i
 case "$i" in
 1)
-https://github.com/Chrisisthebestfhcigcyi/WineBox/releases/tag/Glibc
+
+
+
+

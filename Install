@@ -35,7 +35,7 @@ pkg install termux-x11-nightly -y &>/dev/null
 if [ -e $PREFIX/glibc ]; then
 sleep 2
     echo -n "Removing previous glibc. Continue? (Y/n) "
-sleep 2
+
     read i
 sleep 2
     if [ "$i" = "Y" ] || [ "$i" = "y" ]; then

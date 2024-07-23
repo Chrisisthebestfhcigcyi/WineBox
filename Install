@@ -9,4 +9,19 @@ sleep 2
 echo wget succefully installed!!!
 sleep 2
 echo subscribe to littlebodybigfan188 for updates
+clear
+pkg install termux-am -y
 
+clear
+
+
+INSTALL_WOW64=0
+
+echo "Select an option"
+echo "1) Install boxvidra with box86 build (6 June)"
+echo "2) Install boxvidra with wow64 build (Complete version)"
+echo ""
+echo -n "Selected number: "
+read i
+case "$i" in
+1)

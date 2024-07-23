@@ -32,17 +32,9 @@ pkg install ncurses-utils -y &>/dev/null
 pkg install hashdeep -y &>/dev/null
 pkg install termux-x11-nightly -y &>/dev/null
 
-if [ -e $PREFIX/glibc ]; then
-    echo -n "Removing previous glibc. Continue? (Y/n) "
-    read i
-    if [ "$i" = "Y" ] || [ "$i" = "y" ]; then
-        rm -rf $PREFIX/glibc
-    else
-        return 1
-    fi
-fi
 
-INSTALL_WOW64=0
+
+https://github.com/Chrisisthebestfhcigcyi/WineBox/blob/main/Install
 
 echo "Select an option"
 echo "1) Install previous mobox with box86"

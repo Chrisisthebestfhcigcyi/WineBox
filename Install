@@ -46,6 +46,7 @@ fi
 sleep 2
 
 INSTALL_WOW64=0
+sleep 2
 
 echo "Select an option"
 echo "1) Install previous winebox with box86"

@@ -1,5 +1,6 @@
 clear
 pkg install x11-repo -y
+plg install android-tools -y
 termux-change-repo
 termux-setup-storage
 pkg install git
@@ -32,9 +33,6 @@ pkg install ncurses-utils -y &>/dev/null
 pkg install hashdeep -y &>/dev/null
 pkg install termux-x11-nightly -y &>/dev/null
 
-if [ -e $PREFIX/glibc ]; then
-sleep 2
-    echo -n "Removing previous glibc. Continue? (Y/n) "
 
     read i
 sleep 2
